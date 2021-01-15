@@ -510,6 +510,9 @@ ul {
     .menu{
         display: flex !important;
     }
+    #scroll{
+        overflow: auto !important;
+    }
 }
 @media (max-width: 800px) {
     /* .menu {
