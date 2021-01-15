@@ -1,95 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
 
-    <link rel="icon" href="devchallenges.png" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eddie Homepage</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Montserrat:wght@600&family=Poppins:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?a=1">
+</head>
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
+<body id="scroll">
+  <header class="master-max-lg menu-header">
+    <div>
+      <p class="logo">Edie</p>
+    </div>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <div class="menu" id="menu">
+      <a href="#" class="letra-menu">Home</a>
+      <a href="#services" class="letra-menu">Services</a>
+      <a href="#our-works" class="letra-menu">Our Works</a>
+      <a href="#clients" class="letra-menu">Clients</a>
+      <a href="#contact" class="letra-menu">Contact</a>
+    </div>
 
-    <title>Devchallenges</title>
+    <div class="icon-menu" id="icon-menu" onclick="icon">
+      <span class="material-icons">
+        menu
+      </span>
+    </div>
+  </header>
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
+  <section class="master-max-sm content-section1">
+    <div class="section-1">
+      <p class="title-1">Unhappy with your website?</p>
+      <p class="title-2">We create beautiful and fast web services</p>
+    </div>
+  </section>
 
-      ul {
-        padding-left: 24px;
-      }
+  <section class="master-max-lg">
+    <img src="./heroImage.jpg" alt="" class="img-main">
+  </section>
 
-      li {
-        margin-bottom: 8px;
-      }
+  <section class="master-max-sm content-section2">
 
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
+    <div class="section-2 ">
+      <h2 class="title-3">Story, emotion and purpose</h2>
+      <p class="text1-main">We help transform your ideas into real world applications that will outperform your toughest
+        competition and help you achieve your strategic goals in short period of time.</p>
 
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
+      <p class="text2-main">Want us to contact you?</p>
+      <div class="content-form-email">
+        <form action="" class="form-email">
+          <input type="text" placeholder="Email" class="input-email">
+          <a href="#" class="button-email">Join</a>
+        </form>
+      </div>
+    </div>
+  </section>
 
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+  <section class="master-max" id="services">
+    <h2 class="title-4">We offer high demand services</h2>
+    <section class="flex servicios">
+      <div class="servicios-article">
+        <span class="material-icons icon color-edit">
+          edit
+        </span>
+        <p class="subtitle-4">UI/UX Design</p>
+        <p class="text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
+          aliquet id quis turpis.</p>
+        <a href="#" class="style-text-button button-services">Get started</a>
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      <div class="servicios-article servicios-article-active">
+        <span class="material-icons icon color-code">
+          code
+        </span>
+        <p class="subtitle-4">Front End</p>
+        <p class="text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
+          aliquet id quis turpis.</p>
+        <a href="#" class="style-button2">Get started</a>
+      </div>
+
+      <div class="servicios-article">
+        <span class="material-icons icon color-list">
+          list
+        </span>
+        <p class="subtitle-4">Back End</p>
+        <p class="text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat
+          aliquet id quis turpis.</p>
+        <a href="#" class="style-text-button button-services">Get started</a>
+      </div>
+    </section>
+  </section>
+
+  <section class="master-max" id="our-works">
+    <p class="title-5">Good design means good business</p>
+    <div class="flex content-images">
+      <div>
+        <img class="img img-1" src="./smarthome.jpg" alt="">
+        <p class="title-img">Full stack application</p>
+        <p class="subtitle-img">Smart home dashboard</p>
+      </div>
+      <div>
+        <img class="img" src="./onboard.png" alt="">
+        <p class="title-img">UX/UI design</p>
+        <p class="subtitle-img">Onboard application</p>
+      </div>
     </div>
-  </body>
+    <div class="flex content-images">
+      <div>
+        <img class="img img-1" src="./booking.png" alt="">
+        <p class="title-img">Mobile application</p>
+        <p class="subtitle-img">Booking system</p>
+      </div>
+      <div>
+        <img class="img" src="./juice-product.png" alt="">
+        <p class="title-img">Front End applicati on</p>
+        <p class="subtitle-img">Juice product homepage</p>
+      </div>
+    </div>
+    <div class="flex arrow">
+      <a href="#" class="arrow-styles">see more → </a>
+    </div>
+  </section>
+
+  <section class="master-max flex block content-bloque-6">
+    <div class="bloque-6">
+      <p class="title-6">Meet the team</p>
+      <h2 class="title-7">We are chilled and a laidback team</h2>
+      <p class="text-bloque6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+    <div class="content-bloque6-img">
+      <div class="content-team-img">
+        <img class="img-bloque6" src="./person3.png" alt="">
+      </div>
+      <div class="content-team-img">
+        <img class="db-img img-bloque6 mb-20" src="./person1.png" alt="">
+        <img class="db-img img-bloque6" src="./person2.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="master-max" id="clients">
+    <div>
+      <p class="text-bloque7">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young
+        and talented team.”</p>
+    </div>
+    <div class="flex content-card">
+      <div>
+        <img class="img-small" src="./person4.png" alt="">
+      </div>
+      <div>
+        <p class="text-name-card">Carlos Tran</p>
+        <p class="text-card">The Decorate Gatsby</p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer master-full">
+    <div class="flex content-footer block">
+      <div class="menu-footer">
+        <ul>
+          <li><a href="#" class="letra-menu-footer">Home</a></li>
+          <li><a href="#services" class="letra-menu-footer">Services</a></li>
+          <li><a href="#our-works" class="letra-menu-footer">Our Works</a></li>
+          <li><a href="#clients" class="letra-menu-footer">Clients</a></li>
+          <li><a href="#contact" class="letra-menu-footer">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="logo-footer">Edie</p>
+        <div>
+          <a href="#">
+            <img src="./instagram.svg" alt="">
+          </a>
+          <a href="#">
+            <img src="./linkedin.svg" alt="">
+          </a href="#">
+          <a href="#">
+            <img src="./twitter.svg" alt="">
+          </a href="#">
+        </div>
+      </div>
+      <div id="contact">
+        <p class="text-form-footer">Want us to contact you?</p>
+        <div class="content-form-email">
+          <form action="" class="form-email">
+            <input type="text" placeholder="Email" class="input-email">
+            <a href="#" class="button-email">Join</a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="master-max">
+      <p class="cita-footer">Fiorella Herrera @ DevChallenges.io</p>
+    </div>
+  </footer>
+</body>
+<script src="./app.js"></script>
+
 </html>
